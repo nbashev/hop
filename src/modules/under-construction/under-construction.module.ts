@@ -1,7 +1,7 @@
-import {Module} from '../../libs/module';
-import template from './about-channel.template.html';
+import {Module} from '../../libs';
+import template from './under-construction.template.html';
 
-export default class AboutChannelModule extends Module {
+export default class UnderConstructionModule extends Module {
 
     constructor(config: object = {}, layoutInstance?, moduleType?: string) {
         super(config, layoutInstance, moduleType);
